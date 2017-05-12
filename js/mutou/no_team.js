@@ -1,0 +1,4 @@
+
+function rs_noteam(){
+	
+}

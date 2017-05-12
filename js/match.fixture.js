@@ -1,0 +1,2 @@
+
+		$(".buyticket").click();	

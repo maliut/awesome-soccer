@@ -1,0 +1,63 @@
+#hori_show_sp_table td{
+vertical-align:middle;
+text-align:center;
+}
+.popTips {
+font-size: 12px;
+left: 0;
+line-height: 180%;
+margin: 5px;
+position: absolute;
+width: 260px;
+z-index: 9999;
+height:330px;
+background-color:#FFFFFF;
+border:1px #CECECE solid;
+filter:alpha(opacity=90);
+-moz-opacity:0.9;
+opacity:0.9;
+}
+.contenter_card{
+margin:10px;width:240px;
+}
+.attr_show_tr{
+width:240px;
+text-align:left;
+}
+.attr_show_th{
+width:35px;
+float:left;
+text-align:left;
+}
+.attr_show{
+width:85px;
+float:left;
+text-align:left;
+}
+.attr_show_long{
+width:205px;
+float:left;
+text-align:left;
+}
+.max_up_ex{
+color:blue;
+}
+.up_ex span{
+color:gray;
+}
+.trig_train_fold{
+    height:24px;
+    overflow:hidden;
+}
+.updown_up{
+	color:red;
+}
+.updown_down{
+	color: rgb(5, 199, 5);
+}
+.updown_up.ud_style1{
+	color:rgb(5, 199, 5);
+}
+.updown_down.ud_style1{
+	color: red;
+}

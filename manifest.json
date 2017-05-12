@@ -1,0 +1,107 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/info/team-*/players*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/player.info.js" ,"js/common/rs_enhancer.js","js/mutou/futureExp.js", "js/mutou/compareplayer.js"],
+      "matches": [ "https://rockingsoccer.com/*/*/info/player-*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ,"js/common/rs_enhancer.js"],
+      "matches": [ "https://rockingsoccer.com/*/*/info/team-*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/scout.player.js" , "js/common/rs_enhancer.js"],
+      "matches": [ "https://rockingsoccer.com/*/*/facilities/scout/players" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/players" ]
+   }, {
+	  "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/players/home/*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/players/ntshortlist" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/transfers*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ,"js/common/rs_enhancer.js","js/mutou/youth.js"],
+      "matches": [ "https://rockingsoccer.com/*/*/facilities/youth/log" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ,"js/common/rs_enhancer.js","js/mutou/youth.js"],
+      "matches": [ "https://rockingsoccer.com/*/*/facilities/youth/youthsquad" ]
+   }, {
+	"css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/players.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/players/bsquad*" ]
+   }, {
+      "css": [ "css/watch.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js","js/obj/matchStore.obj.js", "js/friendlies.js","js/autowatch.user.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/friendlies" ]
+   }, {
+      "css": [ "css/watch.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/obj/matchStore.obj.js", "js/match.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/info/match-*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/train.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/facilities/trainer/train-*" ]
+   }, {
+      "css": [ "css/player.css" ],
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/obj/playerStore.obj.js", "js/scout.search.js","js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/facilities/scout/transferlist" ]
+   }, {
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/autowatch.user.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/matches" ]
+   }, {
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/message.home.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/messages/home/home-*" ]
+   }, {     
+       "js": [ "js/common/jquery-1.8.0.min.js", "js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/*/soccer/league-*/level-*/group-*/results*" ]
+   }, {
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/match.fixture.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/info/match-*/fixture*" ]
+   }, {
+	"js": [ "js/common/jquery-1.8.0.min.js", "js/mutou/no_team.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/ranking/clubs*" ]
+   }, {
+      "js": [ "js/common/jquery-1.8.0.min.js", "js/common/base.js", "js/obj/player.obj.js", "js/player.info.js", "js/mutou/compareplayer.js" ],
+      "matches": [ "https://rockingsoccer.com/*/*/info/compare_players" ]
+   }, {
+      "js": [ "js/common/jquery-1.8.0.min.js",  "js/mutou/alink.js" ],
+      "matches": [ "https://rockingsoccer.com/*/soccer" ]
+   } , {
+      "js": [ "js/common/jquery-1.8.0.min.js",  "js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/*/soccer/team_settings" ]
+   } , {
+      "js": [ "js/common/jquery-1.8.0.min.js",  "js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/*/soccer/team_settings*rs_enhancer_settings" ]
+   } , {
+      "js": [ "js/common/jquery-1.8.0.min.js",  "js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/zh/soccer/players" ]
+   } , {
+      "js": [ "js/common/jquery-1.8.0.min.js",  "js/common/rs_enhancer.js" ],
+      "matches": [ "https://rockingsoccer.com/zh/soccer" ]
+   } ],
+   "description": "rs helper based on 3.3.5",
+   "icons": {
+      "128": "images/v_128.png",
+      "16": "images/v_16.png",
+      "48": "images/v_48.png"
+   },
+   "manifest_version": 2,
+   "name": "rs helper",
+   "permissions": [ "https://rockingsoccer.com/*", "unlimitedStorage" ],
+   "version": "3.3.6",   
+   "web_accessible_resources": [ "images/loading.gif", "images/ding.png", "images/ding-done.png" ]
+}
