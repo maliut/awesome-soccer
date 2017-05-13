@@ -2,8 +2,7 @@
 Awesome Soccer 是为 [RockingSoccer](https://rockingsoccer.com/zh/soccer) 提供的 chrome 插件，为 chrome 用户在游戏时提供更好的体验。
 
 ## 用法
-由于 chrome 现在似乎不能加载本地 crx ，现在提供文件下载方式。点击右上角 [Clone or download] -> [Download ZIP] 并解压，随后在 
-chrome://extensions 页选择 [加载已解压的扩展程序...] 即可使用。
+由于 chrome 现在似乎不能加载本地 crx ，现在提供文件下载方式。[点击此处下载](https://github.com/maliut/awesome-soccer/archive/master.zip)，随后解压，并在 chrome://extensions 页选择 [加载已解压的扩展程序...] 即可使用。
 
 为了保证功能的正确性，我们预设玩家在 RockingSoccer 中设置语言为中文，设置属性显示方式为数字。
 
